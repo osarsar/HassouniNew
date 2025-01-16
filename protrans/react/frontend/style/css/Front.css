@@ -1,0 +1,117 @@
+.full{
+    height: auto;
+    position: relative;
+    z-index: 1;
+    top: 170px;
+    width: 100%;
+}
+
+.full img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border:  3px solid black;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+.full .box{
+    background-color: rgb(10, 0, 114);
+    color: white;
+    width: 60%;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    padding: 40px 40px 50px 40px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+.box .name{
+    font-size: 30px;
+    transform: translateX(50%);
+}
+
+.transport{
+    font-size: 60%;
+    position: relative;
+    left: 30px;
+}
+
+.full .contactus{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 25px 70px 25px 70px;
+    cursor: pointer;
+    font-size: 20px;
+    transform: translate(50%, 20%);
+    border: 1px solid rgb(10, 0, 114);
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(10, 0, 114);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.full .contactus:hover{
+    font-size: 25px;
+    transition: font-size 0.3s ease;
+}
+
+@media screen and (max-width:1250px)  and (min-width:1050px){
+
+    .box .name{
+        font-size: 20px;
+        transform: translateX(10%);
+    }
+}
+
+@media screen and (max-width:1050px){
+
+    .box .name{
+        font-size: 20px;
+        transform: translateX(10%);
+    }
+
+    .full .contactus{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:700px){
+
+    .full{
+        height: auto;
+        position: relative;
+        z-index: 1;
+        top: 100px;
+    }
+
+    .full .box{
+        background-color: rgb(10, 0, 114);
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    .full img{
+        transform: translateX(-50%);
+    }
+
+    .box .name{
+        font-size: 12px;
+    }
+
+    .full .contactus{
+        font-size: 9px;
+        padding: 10px 20px 10px 20px;
+        border-radius: 6px;
+    }
+    .full .contactus:hover{
+        font-size: 10px;
+    }
+}

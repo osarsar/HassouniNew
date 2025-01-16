@@ -1,0 +1,128 @@
+.Contact_all{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 400px;
+}
+
+.Contact_all .titles{
+    font-size: 30px;
+}
+
+.Contact_all p{
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+}
+
+.Contact_all .content {
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    column-gap: 20px;
+    position: relative;
+    top: 100px;
+}
+
+.Contact_all .content .left{
+    background-color: rgb(10, 0, 114);
+    height: 500px;
+    width: 400px;
+    padding: 0px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+.Contact_all .content .left .title{
+    font-size: 18px;
+
+}
+
+.Contact_all .content .left .sociaux img{
+    width: 40px;
+    height: 40px;
+
+}
+
+.Contact_all .content .left .sociaux{
+    display: flex;
+    column-gap: 15px;
+
+}
+
+.Contact_all .content .left .sociaux img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+
+}
+
+
+
+.Contact_all .content .left .coordonne{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.Contact_all .content .left .coordonne div{
+    display: flex;
+    column-gap: 20px;
+    /* flex-direction: column; */
+}
+
+.Contact_all .content .left .coordonne img{
+    width: 20px;
+    height: 20px;
+}
+
+.Contact_all .content .right{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: space-evenly;
+    position: relative;
+    left: 50px;
+}
+
+.Contact_all .content .right .title{
+   font-size: 25px;
+}
+
+.Contact_all .content .right input{
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 300px;
+    padding-left: 20px;
+}
+
+.Contact_all .content .right textarea{
+    height: 90px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 300px;
+    padding-left: 20px;
+}
+
+.Contact_all .content .right .send{
+   background-color: rgb(10, 0, 114);
+   padding: 10px 20px 10px 20px;
+   width: 105px;
+   border-radius: 50px;
+   color: white;
+}
+
+.Contact_all .content .right .send:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+ }
